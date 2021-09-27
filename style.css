@@ -9,17 +9,22 @@ body {
   width: 100%;
 }
 #wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto 0 20px;
   font-size: 25px;
+}
+#date {
+width: 100%;
+margin: 0 auto 0 20px;
+ font-size: 0.8em;
 }
  
 /* 見出し ここから */
 h1 {
     height: auto;
-    margin: 40px 0 0 20px;
-    padding: 0;
-    color: #000;
+    margin: 10px 0 0 10px;
+    padding: 0 0 0 15px;
+    color: #333333;
     font-size: 1.8em;
     font-weight: bold;
     border-top: 0;
@@ -27,11 +32,13 @@ h1 {
 }
  
 h2 {
-  margin: 60px 0 35px 0;
+  margin: 30px 0 35px 0;
   padding: 0 0 0 15px;
   font-size: 1.5em;
   font-weight: bold;
-  border-width: 0 0 0 4px;
+  color:#FFFFFF;
+  background-color:#0E376F;
+  border-width: 0 0 0 20px;
   border-style: solid;
   border-color: #0f5296;
 }
@@ -48,6 +55,7 @@ h3 {
 p {
  margin: 60px 0 35px 0;
   padding: 0 0 0 15px;
+  font-size: 1.2em;
 }
  
 /* アコーディオン ここから */
