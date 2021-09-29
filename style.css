@@ -10,12 +10,12 @@ body {
 }
 #wrapper {
   width: 100%;
-  margin: 0 auto 0 20px;
+  margin: 0 0 0 0;
   font-size: 25px;
 }
 #date {
 width: 100%;
-margin: 0 auto 0 20px;
+margin: 0;
  font-size: 0.8em;
 }
  
@@ -32,9 +32,9 @@ h1 {
 }
  
 h2 {
-  margin: 30px 0 35px 0;
+  margin: 0;
   padding: 0 0 0 15px;
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   color:#FFFFFF;
   background-color:#0E376F;
@@ -53,8 +53,8 @@ h3 {
 }
 /* ここまで */
 p {
- margin: 60px 0 35px 0;
-  padding: 0 0 0 15px;
+ margin: 0;
+  padding: 5px 30px 5px 30px;
   font-size: 1.2em;
 }
  
